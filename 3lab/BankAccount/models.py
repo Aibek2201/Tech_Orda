@@ -22,7 +22,7 @@ class BankAccount:
         self.username = f'{self.name.lower()}{self.surname.lower()}'
     
     def check_cash():
-        pass
+        pass 
 
     def __str__(self) -> str:
         return '\033[33m' + f'{self.username}: {self.cash_amount} {self.account}'
